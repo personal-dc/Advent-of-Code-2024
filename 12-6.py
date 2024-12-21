@@ -116,8 +116,6 @@ def guard_loops(obst_r, obst_c):
     new_data[obst_r][obst_c] = '#'
     escaped = False
     loop = False
-    steps = 0
-    path = []
 
     ## add some notion of direction to visited cells
     while not (escaped or loop):
